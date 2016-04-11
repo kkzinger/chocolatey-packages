@@ -3,7 +3,7 @@
 $ErrorActionPreference = 'Stop';
 
 $packageName = 'collectdwin'
-$softwareName = 'collectdwin*'
+$softwareName = 'CollectdWinService'
 $installerType = 'MSI' 
 
 $silentArgs = '/qn /norestart'
@@ -21,7 +21,7 @@ $key = Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
                         -ErrorAction SilentlyContinue `
          | ? { $_.DisplayName -like "$softwareName" }
 
-if ($key.Count -eq 1) {
+if ($key.UninstallString) {
   $key | % { 
     $file = "$($_.UninstallString)"
 

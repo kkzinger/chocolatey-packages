@@ -5,20 +5,20 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>collectdwin</id>
     <title>collectdwin (Install)</title>
-    <version>0.5.8</version>
+    <version>0.5.14</version>
     <authors>Bloomberg Finance L.P</authors>
     <owners>Bloomberg Finance L.P</owners>
     <summary>...</summary>
     <description>Installs a Service that is capable to read Performance Counters and send it to different outputs. The output format of the Data is based on collectd formating.
     </description>
     <projectUrl>https://github.com/bloomberg/collectdwin</projectUrl>
-    <packageSourceUrl>https://github.com/kkzinger/collectdwin-chocolatey-package</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>
+    <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages.git</packageSourceUrl>
+    <projectSourceUrl>https://github.com/bloomberg/collectdwin/archive/v0.5.14.zip</projectSourceUrl>
     <docsUrl>https://github.com/bloomberg/collectdwin/wiki</docsUrl>
-    <mailingListUrl></mailingListUrl>
-    <bugTrackerUrl>https://github.com/bloomberg/collectdwin/issues</bugTrackerUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/bloomberg/collectdwin/issues</bugTrackerUrl>
     <tags>collectdwin admin</tags>
-    <copyright></copyright>
+    <!--<copyright></copyright>-->
     <licenseUrl>https://raw.githubusercontent.com/bloomberg/collectdwin/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<iconUrlhttps://avatars0.githubusercontent.com/u/1416818?v=3&s=200</iconUrl>-->
