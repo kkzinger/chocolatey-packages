@@ -13,7 +13,7 @@
     </description>
     <projectUrl>https://github.com/bloomberg/collectdwin</projectUrl>
     <packageSourceUrl>https://github.com/kkzinger/chocolatey-packages.git</packageSourceUrl>
-    <projectSourceUrl>https://github.com/bloomberg/collectdwin/archive/v0.5.14.zip</projectSourceUrl>
+    <projectSourceUrl>https://github.com/bloomberg/collectdwin</projectSourceUrl>
     <docsUrl>https://github.com/bloomberg/collectdwin/wiki</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/bloomberg/collectdwin/issues</bugTrackerUrl>
