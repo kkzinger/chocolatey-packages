@@ -48,8 +48,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/kohler/gifsicle/issues</bugTrackerUrl>
     <tags>gifsicle gif</tags>
-    <summary>Gifsicle is a command-line tool for creating, editing, and getting information about GIF images and animations.</summary>
-    <description>...</description>
+    <summary>...</summary>
+    <description>Gifsicle is a command-line tool for creating, editing, and getting information about GIF images and animations.</description>
     <releaseNotes>https://www.lcdf.org/gifsicle/changes.html</releaseNotes>
     <!-- =============================== -->      
 
